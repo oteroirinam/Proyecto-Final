@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pagina de inicio, venta de libros">
+    <meta name="keywords"  content="libros, ventas, sugerencias, contacto, canal, suscripcion, bestsellers, novedades, escritores, autores, ebooks, audiolibros, libros de bolsillo">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@200;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="CSS/estilo.css">
+	<title>EL MERCADER</title>
+    <link rel="shortcut icon" href="IMG/m.png">
+</head>
+<body>
+  
+    <header class="conteinter header-index">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand title a-index-header" href="index.html">
+                  <img src="IMG/m.png" alt="logo mercader" width="50" height="50" class="font-header"> EL MERCADER
+                </a>
+            </div>
+          <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link font-header" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link font-header" href="sugerencia.html">Sugerencias</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link font-header" href="generos.html">Géneros</a>
+                </li>
+                <li class="nav-item font-header">
+                  <a class="nav-link" href="sobrenosotros.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link font-header" href="contacto.html">Contacto</a>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="¿Qué libro estás buscando?" aria-label="Search">
+                <button class="btn btn-header" type="submit">Buscar</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+    </header>
+    <main class="conteiner main-index">
+        <div id="carouselExampleIndicators" class="carousel slide center" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner carousel-inner-index">
+            <div class="carousel-item active">
+              <img src="IMG/agendas.png" class="d-block w-100 carousel-inner-index__img img-fluid" alt="AGENDAS">
+            </div>
+            <div class="carousel-item">
+              <img src="IMG/compra.png" class="d-block w-100 carousel-inner-index__img img-fluid" alt="COMPRAS">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+          <br>
+        </div>
+        <h1><a href="sugerencia.html">DESTACADOS DEL MES</a></h1>  
+
+        <hr>
+        <div class="container main-index-sugerencias">
+          <div class="row row-cols-3">
+            <div class="col">
+                <div class="card" style="width: 18rem; div-index-img">
+                    <img src="IMG/gameboy.jpg" class="card-img-top img-books-index img-fluid" alt="Libro GameBoy">
+                    <div class="card-body">
+                        <h5 class="card-title titles-books-index">GAME BOY</h5>
+                        <p class="card-text lead">Danisa Gonzalez de Corrientes recomienda:GAME BOY - «Parkas reflexiona sobre sus privilegios, sus referentes y sus convicciones. Es un ataque directo a la misoginia, a las "masculinidades viejunas"»</p>
+                     <a href="sugerencia.html" class="btn btn-main">Ver más</a>
+                    </div>
+                </div>    
+            </div>
+            <div class="col">
+              <div class="card" style="width: 18rem;">
+                  <img src="IMG/luna.jpg" class="card-img-top img-books-index img-fluid" alt="Libro Alumbra la Luna">
+                  <div class="card-body">
+                      <h5 class="card-title titles-books-index">ALUMBRA LA LUNA</h5>
+                      <p class="card-text lead">Hugo Kulman de Formosa recomienda: ALUMBRA LA LUNA - «Muy buen libro, explica muy bien la relacion existente entre la luna, nuestro vinculo con nuestras madres, y la infancia. Volveria a leerlo me parece fantastico.»</p>
+                   <a href="sugerencia.html" class="btn btn-main">Ver más</a>
+                  </div>
+              </div>    
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="IMG/thearrivals.jpg" class="card-img-top img-books-index img-fluid" alt="Libro The arrivals">
+                    <div class="card-body">
+                         <h5 class="card-title titles-books-index">THE ARRIVALS</h5>
+                        <p class="card-text lead">Andres de Buenos Aires recomienda: THE ARRIVALS - «He leído una buena cantidad de libros de género y éste es el mejor cuento de ciencia ficción que jamás me haya encontrado.»</p>
+                        <a href="sugerencia.html" class="btn btn-main">Ver más</a>
+                    </div>
+                </div>  
+            </div>
+          </div> 
+          <hr>
+            <div class="div-container-susc">
+              <h2 class="div-container-susc-h2">¡Suscribite para recibir nuestros descuentos y novedades semanales!</h2>  
+              <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Correo Electronico</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="correo@ejemplo.com">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">¿Tiene algo para comentarnos?</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  <br>
+                  <button type="button" class="btn btn-main">ENVIAR</button>
+                </div>
+            </div>
+            <hr>
+        </div>
+    <hr>
+    <div>
+      <h2 class="main-index-h2-prd"><a href="generos.html">PRODUCTOS EN OFERTA</a></h2>
+      <div class="container">
+        <h2 class="main-index-h2-sls">¡SALES!</h2>
+        <div class="row row-cols-4 main-index-sugerencias">
+          <div class="col main-div-generos"><img  src=IMG/elmilagro.jpg alt="Libro El milagro del agua" class="img-generos"> </div>
+          <div class="col main-div-generos"><img  src=IMG/adn.jpg alt="Libro ADN Cosmico" class="img-generos"></div>
+          <div class="col main-div-generos"><img  src=IMG/cuento.jpg alt="Libro Un cuento Perfecto" class="img-generos"></div>
+          <div class="col main-div-generos"><img  src=IMG/asuntos.jpg alt="Libro Asuntos de Venus" class="img-generos"></div>
+        </div>
+        <div class="row row-cols-4 .main-index-sugerencias">
+          <div class="col titles-generos">EL MILAGRO DEL AGUA</div>
+          <div class="col titles-generos">ADN COSMICO</div>
+          <div class="col titles-generos">UN CUENTO PERFECTO</div>
+          <div class="col titles-generos">ASUNTOS DE VENUS</div>
+      </div>
+    </div>
+    <hr>
+    <footer class="footer">
+        <br>
+            <div>
+                <h2>SEGUINOS EN NUESTRAS REDES SOCIALES</h2>
+                <li class="footer-index-style"><a class="navbar-brand" href="index.html"><img src="IMG/twitter.png" alt="logo twitter" width="30" height="24"> Twitter</a></li>
+                <br>
+                <li><a class="navbar-brand" href="index.html"><img src="IMG/facebook.png" alt="logo facebook" width="30" height="24"> Facebook</a></li>
+                <br>
+                <li><a class="navbar-brand" href="index.html"><img src="IMG/instagram.png" alt="logo instagram " width="30" height="24"> Instagram</a></li>
+            </div>
+            <br>
+
+    </footer>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>
+
+    
